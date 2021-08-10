@@ -9,6 +9,12 @@
 
 .name {
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0px;
+}
+
+.job {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5px;
 }
 
 body {
@@ -39,10 +45,20 @@ body {
 	padding-top: 20px;
 	display: flex;
 	margin: 5px;
-	max-width: 50%;
+	max-width: 500px;
+
 	flex: 1;
 	flex-direction: column;
 	align-items: center;
+}
+
+.resume-link {
+	font-weight: bold;
+	color: blue;
+}
+
+.resume-link, a:visited {
+	text-decoration: none;
 }
 
 .bio {
@@ -57,33 +73,38 @@ body {
 	box-shadow: 0 1px 0 #000;
 
 	width: 100%;
-	height: auto;
+	height: 36px;
 	margin: 0 0 1em 0;
 	padding: 1px;
 	background-color: white;
-
 	font-size: 18px;
 	
 	align-items: center;
-
 }
 
 .navbar ul {
 	list-style: none;
-	margin-top: 5px;
-    margin-bottom: 5px;
+	padding-top: 0px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+	height: 100%;
 }
 
 .navbar li {
 	display: inline-block;
-	margin-right: 30px;
+	padding-left: 7px;
+	padding-right: 7px;
+	height: 100%;
 }
 
 .navbar a {
 	text-decoration: none;
 	color: black;
+	margin-top: 3px;
 	margin-left: 4px;
+	margin-right: 4px;
 	display: block;
+	height: 100%;
 }
 
 .navbar a:visited{
@@ -91,7 +112,7 @@ body {
 	color: black;
 }
 
-.navbar a:hover {
+.navbar li:hover {
 	background-color: rgba(0,0,0,0.1);
 }
 
@@ -107,10 +128,10 @@ body {
 
 .parallax1 { 
     /* The image used */
-    background-image: url("img/pano.jpg");
+    background-image: url("../img/pano.jpg");
 
     /* Set a specific height */
-    height: 600px; 
+    height: 700px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -121,7 +142,7 @@ body {
 
 .parallax2 { 
     /* The image used */
-    background-image: url("img/umigv.jpg");
+    background-image: url("../img/umigv.jpg");
 
     /* Set a specific height */
     height: 400px; 
@@ -198,7 +219,7 @@ body {
 
 .parallax3 { 
     /* The image used */
-    background-image: url("img/mhacks.jpg");
+    background-image: url("../img/mhacks.jpg");
 
     /* Set a specific height */
     height: 300px; 
@@ -212,7 +233,7 @@ body {
 
 .parallax4 {
 	/* The image used */
-    background-image: url("img/schedum.jpg");
+    background-image: url("../img/schedum.jpg");
 
     /* Set a specific height */
     height: 300px; 
